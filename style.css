@@ -1,0 +1,108 @@
+* {
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color: rgb(31, 29, 29);
+    /* justify-content: center; */
+    /* padding: 30px 50px; */
+    font-size: 50px;
+    text-align: center;
+    /* margin: 0px; */
+    /* position: fixed; */
+    /* position: sticky; */
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+.nav-bar a {
+    color: azure;
+    margin: 20px;
+}
+
+.nav-bar a:hover {
+    background-color: aqua;
+    transform: translate(20px);
+}
+
+.first,
+.second {
+    height: 100vh;
+    margin-top: 60px;
+    padding: 30px
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.fcontainer {
+    display: flex;
+    border: 5px solid black;
+    height: 25vh;
+    font-size: 20px;
+
+}
+
+.fcontainer:hover {
+    background-color: aqua;
+    /* transform: translate(20px); */
+    font-size: 20px;
+}
+
+.fitem {
+    background-color: bisque;
+    border: 10px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+    justify-self: center;
+}
+
+.container {
+    display: flex;
+    border: 5px solid black;
+    width: 50;
+    height: 25vh;
+    justify-content: center;
+
+}
+
+.container:hover {
+    background-color: aqua;
+    /* transform: translate(-20px); */
+
+}
+
+.item {
+    display: grid;
+    background-color: bisque;
+    border: 10px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 100px;
+    grid-template-rows: 143px 1fr 43fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 20px;
+    place-items: center;
+
+}
+
+.item:hover {
+    transform: translatex(20px);
+    background-color: rgb(229, 153, 153);
+    font-size: 20px;
+}
